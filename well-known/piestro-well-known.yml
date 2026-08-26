@@ -1,0 +1,70 @@
+generated: '2026-08-26'
+method: probed
+source: >-
+  Direct unauthenticated HTTP probes of every host associated with Piestro, run
+  2026-08-26 with a desktop-browser User-Agent. Nothing was served: every path either
+  404s on the readable Webflow host or is answered by a Cloudflare Turnstile
+  interstitial on piestro.com. No WellKnown or SecurityTxt pointer is wired in
+  apis.yml, because this file documents an absence, not a presence.
+hosts:
+- host: piestro.com
+  note: >-
+    Canonical company domain. Still registered and Cloudflare-fronted with a valid TLS
+    certificate, but every request from our probe — including /robots.txt — is answered
+    with HTTP 403 and a Cloudflare Turnstile challenge page, so no path could be read.
+    We do not evade challenges. 403 here means "not readable", not "not served".
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null
+- host: piestro.webflow.io
+  note: >-
+    Legacy Webflow marketing/crowdfunding site, publicly readable (HTTP 200 on / and
+    /sitemap.xml). Every /.well-known/ path returns the Webflow 404 body
+    ("Invalid page"). No well-known document of any kind is served.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+summary:
+  documents_served: 0
+  hosts_probed: 2
+  well_known_pointer_emitted: false
+  security_txt_pointer_emitted: false
+  agent_card_found: false

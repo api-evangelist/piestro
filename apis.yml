@@ -24,6 +24,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.prod.website-files.com/5ed521e4f155f4f157f0a61a/5ed66f0f9264a6758037ab33_Piestro_3_4_Mama_Baby_Button(long%20shadow)-min.png
 x-type: company
 x-source: harvest:secondary-market

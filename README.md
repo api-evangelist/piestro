@@ -64,5 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Piestro is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/piestro_stock/
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
+Piestro was a Los Angeles-area food-robotics company that built a fully enclosed, automated pizza-making vending machine — an unattended kiosk that pressed, sauced, topped, baked, cut and boxed an artisanal pizza in roughly three minutes, sold both as direct-to-consumer placements and as a white-label unit for existing pizza brands. Founded by Massimo Noja De Marco and incubated by Wavemaker Labs (since rebranded Vebu Labs), it raised roughly $11.7M from equity-crowdfunding investors, largely via StartEngine, and piloted units with partners including Capriotti's and 800 Degrees Go. Piestro shut down in January 2025 without shipping a production unit. It is a hardware and food-service company, not a software vendor: it never ran a developer program, and no public API, SDK, webhook, developer portal or machine-readable contract of any kind was ever published. This profile records that absence rather than inventing a surface.
+
+**Areas:** Company · Robotics · Automation · Food Service · Restaurant Technology · Vending · Hardware · Defunct
+
+## Piestro on APIs.io (historical record)
+
+Everything profiled for Piestro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/piestro/](https://apis.io/providers/piestro/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Piestro Domain Security](https://apis.io/security/piestro/piestro-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://piestro.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Piestro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/piestro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
